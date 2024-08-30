@@ -19,10 +19,7 @@ int main() {
     }
     
   }
-  printf("the largest num is: %d", largeNum);
-  printf("\nthe smallest num is: %d", samllNum);
-  printf("\nthe before decrement the smallest num and the largest num is: %d", sum);
   sum = sum - largeNum - samllNum;
-  printf("\nthe sum after decrement the largest num and the smallest num is: %d", sum);
+  printf("the sum is: %d", sum);
 
 }
